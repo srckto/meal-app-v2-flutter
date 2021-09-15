@@ -1,0 +1,76 @@
+name: meal_app_v2
+description: Improve the app and supported an arabic language.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  shared_preferences: ^2.0.7
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/image.jpg
+  #   - images/null.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+  #  - family: RobotoCondensed
+  #    fonts:
+  #       - asset: assets/fonts/RobotoCondensed-Bold.ttf
+  #       - asset: assets/fonts/RobotoCondensed-Italic.ttf
+  #       - asset: assets/fonts/RobotoCondensed-Regular.ttf
+
+   - family: CherryAndKisses
+     fonts:
+        - asset: assets/fonts/CherryAndKisses.ttf
+
+  #  - family: Cairo
+  #    fonts:
+  #       - asset: assets/fonts/Cairo-Black.ttf
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #       - asset: assets/fonts/Cairo-ExtraLight.ttf
+  #       - asset: assets/fonts/Cairo-Light.ttf
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-SemiBold.ttf
+
+  #  - family: Raleway
+  #    fonts:
+  #       - asset: assets/fonts/Raleway-Regular.ttf
+  #       - asset: assets/fonts/Raleway-Bold.ttf
+  #       - asset: assets/fonts/Raleway-Black.ttf
+
+   - family: IBM
+     fonts:
+        - asset: assets\fonts\IBMPlexSansArabic-Regular.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-Bold.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-ExtraLight.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-Light.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-Medium.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-SemiBold.ttf
+        - asset: assets\fonts\IBMPlexSansArabic-Thin.ttf
+
