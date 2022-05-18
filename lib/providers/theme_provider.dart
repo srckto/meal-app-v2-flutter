@@ -7,6 +7,9 @@ class ColorProvider with ChangeNotifier {
   bool? themeState = false;
 
   ThemeData lightTheme = ThemeData(
+    appBarTheme: AppBarTheme(
+      backgroundColor: StyleClass.R_D92818,
+    ),
     primaryColor: StyleClass.R_D92818,
     accentColor: StyleClass.O_D97904,
     buttonColor: StyleClass.B_262523,
@@ -52,6 +55,9 @@ class ColorProvider with ChangeNotifier {
   );
 
   ThemeData darkTheme = ThemeData(
+    appBarTheme: AppBarTheme(
+      backgroundColor: Color(0xFF242227), 
+    ),
     primaryColor: Color(0xFF262626),
     accentColor: Color(0xFF242227),
     cardColor: Color(0xFF242227).withOpacity(0.5),

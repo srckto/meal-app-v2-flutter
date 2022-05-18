@@ -9,9 +9,4 @@ class StyleClass {
   static const Color W_FDFEE2 = Color.fromRGBO(238, 239, 232, 1);
   static const Color W2_FDFEE2 = Color.fromRGBO(255, 254, 229, 1);
 
-  static const TextStyle titleStyle = TextStyle(
-    fontSize: 20.5,
-    fontWeight: FontWeight.w600,
-    letterSpacing: 0.3,
-  );
 }
